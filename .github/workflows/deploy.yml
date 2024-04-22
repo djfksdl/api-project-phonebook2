@@ -55,6 +55,6 @@ jobs:
             sudo docker rm phonebook2 || true
             sudo docker run -d \
               --name phonebook2 \
-              -p 9000:9000 \
+              -p 9002:9002 \
               -v /home/ec2-user/upload:/app/upload \
               djfksdl/phonebook2:latest
