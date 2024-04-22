@@ -23,6 +23,6 @@ public class PhonebookController {
 		
 		List<PhonebookVo> pList = phonebookService.exeList();
 		
-		return JsonResult.success(pList);
+		return JsonResult.success(pList );
 	}
 }
