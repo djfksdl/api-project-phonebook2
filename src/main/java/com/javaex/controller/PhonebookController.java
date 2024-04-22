@@ -21,6 +21,7 @@ public class PhonebookController {
 	public JsonResult getList() {
 		System.out.println("PhonebookController.getList");
 		
+		
 		List<PhonebookVo> pList = phonebookService.exeList();
 		
 		return JsonResult.success(pList );
